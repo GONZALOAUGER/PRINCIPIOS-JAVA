@@ -23,7 +23,7 @@ countMascotas(){
 }
 // Se agregan libros
 addBook(titulo,autor){
-    this.LIBROS.PUSH({Titulo:titulo, Autor:autor})
+    this.libros.push({Titulo:titulo, Autor:autor})
     console.log(`Se agregó el libro "${titulo}" de ${autor} a la lista de libros de ${this.nombre}${this.apellido}`)
 }
 getBookNames(){
